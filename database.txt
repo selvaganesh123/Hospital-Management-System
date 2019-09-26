@@ -1,0 +1,16 @@
+INSTALL MYSQL 5.0 ON YOUR SYSTEM  with username:root and password:root
+OPEN THE COMMAND LINE CLIENT OF MYSQL
+
+ENTER PASSWORD:root
+
+COPY THE QUERIES LINE BY LINE AND PASTE INTO MYSQL 5.0 THE TYPE ENTER
+
+create database hospital;
+use hospital;
+create table login(userid varchar(20)not null,passwd varchar(20)not null);
+insert into login values('admin','12345');
+create table register(name varchar(30)not null,
+
+NOW YOUR DATABASE IS CREATED RUN YOUR NETBEANS PROJECT
+
+ENJOI....:)
