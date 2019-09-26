@@ -9,7 +9,7 @@ create database hospital;
 use hospital;
 create table login(userid varchar(20)not null,passwd varchar(20)not null);
 insert into login values('admin','12345');
-create table register(name varchar(30)not null,
+create table register(name varchar(30)not null,DOB_date varchar(3)not null,DOB_month varchar(5)not null,
 
 NOW YOUR DATABASE IS CREATED RUN YOUR NETBEANS PROJECT
 
