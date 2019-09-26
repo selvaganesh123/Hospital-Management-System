@@ -8,9 +8,14 @@ COPY THE QUERIES LINE BY LINE AND PASTE INTO MYSQL 5.0 THE TYPE ENTER
 create database hospital;
 use hospital;
 create table login(userid varchar(20)not null,passwd varchar(20)not null);
+
 insert into login values('admin','12345');
-create table register(name varchar(30)not null,DOB_date varchar(3)not null,DOB_month varchar(5)not null,DOB_year varchar(6)not null,general varchar(10)not null,address
+
+create table register(name varchar(30)not null,DOB_date varchar(3)not null,DOB_month varchar(5)not null,DOB_year varchar(6)not null,general varchar(10)not null,address varchar(70),contact varchar(14)not null,email varchar(25)not null,date1 varchar(2)not null,month1 varchar(5)not null,year1 varchar(5)not null,date2 varchar(2),month2 varchar(5),year2 varchar(5),reason varchar(50));
+
 
 NOW YOUR DATABASE IS CREATED RUN YOUR NETBEANS PROJECT
+
+then right click on libraries in projects and click on add jar/folder then select and import the packages in the libraries folder.
 
 ENJOI....:)
